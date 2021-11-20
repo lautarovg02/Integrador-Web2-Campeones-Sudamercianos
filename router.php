@@ -68,16 +68,13 @@ switch ($params[0]) {
         $controller = new teamController();
         $controller->confirmTeam();
         break;
-
     case 'register':
         $authController=new authController();
         $authController->registerUser();
-
     case 'showRegisterForm':
         $authController=new authController();
         $authController->showRegisterForm();
         break;
-
     default:
         echo '404 - Página no encontrada';
         break;
