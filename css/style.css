@@ -1,0 +1,24 @@
+.footer-copyright{
+    background-color: #212529;
+    width: 100%;
+}
+
+.main-title{
+    margin-bottom: 10rem;
+}
+.footer-copyright p{
+    color: white;
+}
+
+.btn-dark{
+    display: flex;
+    width: 5rem;
+}
+
+footer{
+    margin-top: 20%;
+}
+
+.div-login{
+    margin-top: 18%;
+}
